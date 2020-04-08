@@ -30,7 +30,7 @@ public class Downloader
     @Autowired
     private RequestWrapper requestWrapper;
 
-    public long delay = 700;
+    public long delay = 50;
 
     @Autowired
     private NovelRepository novelRepository;
